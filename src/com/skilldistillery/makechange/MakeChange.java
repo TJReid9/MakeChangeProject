@@ -7,10 +7,10 @@ public class MakeChange {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Price: ");
+		System.out.println("Please enter the price of an item.");
 		float price = sc.nextFloat();
 
-		System.out.println("Paid: ");
+		System.out.println("Please enter the amount paid.");
 		float paid = sc.nextFloat();
 		sc.close();
 

@@ -1,7 +1,7 @@
 # MakeChangeProject
 
 ## Overview
- Created a program that requests input from the user for a purchase price and the aount paid, then calculates the change returned. We also provided the amount of each type of currency required to make the change  
+ Created a program that requests input from the user for a purchase price and the aount paid, then calculates the change returned. We also provided the amount of each denomination of currency required to make the change.  
 
 
 ## Technologies Utilized
