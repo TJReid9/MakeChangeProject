@@ -21,7 +21,7 @@ public class MakeChange {
 		} else if (paid == price) {
 			System.out.println("Exact amount.");
 		} else {
-			System.out.printf("Change: %.2f\n", totalChange);
+			System.out.printf("Here's your change: %.2f\n", totalChange);
 			
 			int dollars = (int) totalChange;
 			int cents = (int)((totalChange-(float)dollars)*100);

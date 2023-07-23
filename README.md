@@ -15,6 +15,7 @@
 - Calculate input from a user and return correct change
 - Converting data types
 - Using the Cast Operator
+- Precedence and truncation 
 
 ## Instructions
 - Run MakeChange.java
