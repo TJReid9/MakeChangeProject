@@ -1,7 +1,7 @@
 # MakeChangeProject
 
 ## Overview
- Created a program that requests input from the user for a purchase price and the aount paid, then calculates the change returned. We also provided the amount of each denomination of currency required to make the change.  
+ Created a program that promts an input from the user for a purchase price and the aount paid, then calculates the correct change to be returned. We also provided the amount of each denomination of currency required to make the change.  
 
 
 ## Technologies Utilized
@@ -21,4 +21,4 @@
 - Run MakeChange.java
 - Enter the price of an item
 - Enter the amount paid
-- The program will calculate the amount of change and denominations of currency to returned
+- The program will calculate the correct change and amount of specific denominations of currency to be returned
