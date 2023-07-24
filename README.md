@@ -9,6 +9,7 @@
 - Eclipse
 - Git
 - GitHub
+- Sublime
 
 ## Lessons Learned
 - Make packages and classes
@@ -21,4 +22,4 @@
 - Run MakeChange.java
 - Enter the price of an item
 - Enter the amount paid
-- The program will calculate the correct change and amount of specific denominations of currency to be returned
+- The program will calculate and return the correct change as well as the number of specific dnominations of currency required to make the change.
