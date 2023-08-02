@@ -8,13 +8,13 @@ public class MakeChange {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Please enter the price of an item.");
-		float price = sc.nextFloat();
+		double price = sc.nextFloat();
 
 		System.out.println("Please enter the amount paid.");
-		float paid = sc.nextFloat();
+		double paid = sc.nextFloat();
 		sc.close();
 
-		float totalChange = (paid - price);
+		double totalChange = (paid - price);
 
 		if (paid < price) {
 			System.out.println("Not enough.");
@@ -22,9 +22,9 @@ public class MakeChange {
 			System.out.println("Exact amount.");
 		} else {
 			System.out.printf("Here's your change: %.2f\n", totalChange);
-			
+
 			int dollars = (int) totalChange;
-			int cents = (int)((totalChange-(float)dollars)*100);
+			int cents = (int) ((totalChange - (double) dollars) * 100 + 0.5);
 
 			int twenties = dollars / 20;
 			dollars = dollars % 20;
@@ -49,7 +49,7 @@ public class MakeChange {
 
 			int pennies = cents / 1;
 			cents = cents % 1;
-			
+
 
 			if (twenties > 0) {
 				System.out.println("Twenties: " + twenties);
@@ -75,7 +75,7 @@ public class MakeChange {
 			if (pennies > 0) {
 				System.out.println("Pennies: " + pennies);
 			}
-		}
 
+		}
 	}
 }
